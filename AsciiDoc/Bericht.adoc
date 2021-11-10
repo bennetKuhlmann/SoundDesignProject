@@ -3,44 +3,163 @@
 :sectnums:
 :toc:
 
-== Aufgabenstellung
-Ziel des Projektes ist es, ein Motorgeräusch zu synthetisieren,
-mit welchem anschließend ein Video eines Porsche (911) neu vertont werden soll.
+== Aufgabenstellung und Zielsetzung
+Ziel des Projektes ist es, verschiedene Motorgeräusche zu synthetisieren und
+sie anschließend mit einem vorgegebenen Video (Porsche 911) zusammenzuführen.
+
+Zum Synthetisieren wird das Programm *https://puredata.info/[Pure-Data]* genutzt.
+
+*Zielsetzung des Zwischenberichts*
+
+* *Auditive*, sowie *technische Analyse* verschiedener Motorgeräusche mittels FL-Studio
+* Erste Synthese verschiedener Frequenzen und Geräusche mittels Pure-Data
 
 == Allgemeine Analyse verschiedener Motor-Geräusche
-=== Auditive Wahrnehmung
+In diesem Abschnitt werden ausgewählte (Motor-)Geräusche
+(u. a. hinsichtlich Wahrnehmung und Frequenz) untersucht.
 
-==== ausgewählte Testgeräusche
-Dominus:
+=== Auditive Wahrnehmung
+Zur *auditiven Wahrnehmung* gehört das persönliche Empfinden eines Geräusches
+und dessen Wirkung auf den Hörer.
+
+Als Audio-Beispiele werden im Hinblick auf die Zielstellung (Motorengeräusch)
+dementsprechend verschiedene Arten von Motorengeräuschen.
+
+Im folgenden Abschnitt werden die einzelnen Geräusche vorgestellt und anschließend
+Empfindungen und gewonnene Eindrücke dargestellt.
+
+==== Ausgewählte Testgeräusche
+_Dominus:_
 
 audio::../audio-files/Dominus.wav[]
 
-Esper:
+_Esper:_
 
 audio::../audio-files/Esper.wav[]
 
-Ford-GT-2006:
+_Ford-GT-2006:_
 
 audio::../audio-files/Ford-GT-2006.wav[]
 
-OEM-D-V2:
+_OEM-D-V2:_
 
 audio::../audio-files/OEM-D-V2.wav[]
 
-Scarab:
+_Scarab:_
 
 audio::../audio-files/Scarab.wav[]
 
-==== Wahrnehmungs-Beschreibung
+==== Eindrücke und Empfindungen
+*Dominus*
+
+* keine "schrillen" Frequenzen
+* tiefe Frequenzen vorhanden, aber nicht zu sehr ausgeprägt
+* eher "hell", d.h. hochtouriges fahren
+* Schaltvorgänge nicht prägnant, aber wahrnehmbar
+* kein "satter" Umfang, somit eher für kleineres Auto passend (kein SUV, Truck, …)
+* "knattern" entnehmbar
+
+*Esper*
+
+* sehr "klirrend"
+* extrem hell und sehr hohe Frequenzen
+* Tiefen fehlen deutlich merkbar
+* unpassend für Retro-Autos wie Porsche 911 mit Verbrennungsmotor
+* erinnert an Zukunftsfahrzeuge mit anderer Technologie (Elektronik, Magnetismus, Induktion)
+* Schaltvorgänge gut wahrnehmbar
+* "Cyber-Like"-Stil
+
+*Ford-GT-2006*
+
+* sehr tiefe Frequenzen gut hörbar (stark ausgeprägt)
+* hohe Frequenzen nicht "zu aufdringlich", aber vorhanden
+* passt sehr gut zu einem Auto wie Porsche 911
+* Schaltvorgänge durch geringere Lautstärke realisiert
+
+*OEM-D-V2*
+
+* kein störendes "knattern" wie bei *Dominus*
+* tiefe und hohe Frequenzen nicht zu aufdringlich,
+* Frequenzen versuchen sich nicht gegenseitig zu übertönen
+* angenehmes Geräusch, da keine sehr schrillen Töne vorhanden sind
+* auch passend für Porsche 911 in bestimmter Situation
+
+*Scarab*
+
+* sehr "helles" Geräusch
+* keine wirklichen Tiefen
+* "Knattern" sehr laut und aufdringlich
+* erinnert an "Zweitakt-Motor" einer Simson
+* durchgehendes Fahren im hochtourigen Bereich
+* sehr ungeeignet für den Porsche 911
 
 ---
 === Technische Analyse
+In diesem Abschnitt werden die ausgewählten Geräusche hinsichtlich ihrer technischen
+Eigenschaften untersucht und analysiert.
+
+Dazu zählen u. a. die Analyse des Frequenzspektrums, sowie der Lautstärke / Amplituden.
+
+Zur Analyse wird das Programm https://www.image-line.com/[FL-Studio], inklusive Plugins, genutzt.
+
 ==== Amplituden Analyse
+
 ==== Spektralanalyse
+
+===== Konfiguration
+Software-Konfiguration, wie Auflösung, Update, …
+
+===== Ergebnisse
+
+*Dominus*
+
+image::../images/dominus_spectrum.png[]
+
+_Beschreibung:_
+
+*Esper*
+
+image::../images/esper_spectrum.png[]
+
+_Beschreibung:_
+
+*Ford-GT-2006*
+
+image::../images/ford-gt_spectrum.png[]
+
+_Beschreibung:_
+
+*OEM-D-V2*
+
+image::../images/oem-d-v2_spectrum.png[]
+
+_Beschreibung:_
+
+*Scarab*
+
+image::../images/scarab_spectrum.png[]
+
+_Beschreibung:_
+
 ==== charakteristische Frequenzen
+In diesem Abschnitt werden besonders hervorstechende Frequenzen der jeweiligen Geräusche untersucht.
+
+[cols="1,1,2"]
+|===
+|Motor-Geräusch         | Frequenzen | Besonderheiten
+|Dominus                | x          | x
+|Esper                  | x          | x
+|Ford-GT-2006           | x          | x
+|OEM-D-V2               | x          | x
+|Scarab                 | x          | x
+
+|===
+
 ==== Dynamik
 == Fazit
 == Quellen
 
 link:https://www.youtube.com/watch?v=6YXdlF1p0i8[Rocket League®: All Engine Audio]
+
+link:https://www.youtube.com/watch?v=Ft-55-Z-XIo[Gran Turismo Sport | Top 20 Best Engine Sound (4K)]
 
