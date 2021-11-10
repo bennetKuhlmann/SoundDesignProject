@@ -1,0 +1,22 @@
+= Properties
+:project_name: SoundDesignProject
+:sectnums:
+:toc:
+
+== Wave Candy
+
+[options="header", cols="1,2"]
+|===
+|Property |Value
+|Scale |19:9
+|Corners | Off
+|Reflect/Bevel|Off
+|Scale|match Audio File
+|Update|match Audio File
+|Color | Black
+|dB Range|Dynamic
+|Max res|2024
+|===
+
+
+|===
