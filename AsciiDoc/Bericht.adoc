@@ -33,7 +33,7 @@ audio::../audio-files/Scarab.wav[]
 
 ==== Wahrnehmungs-Beschreibung
 
----
+'''
 === Technische Analyse
 ==== Amplituden Analyse
 ==== Spektralanalyse
@@ -44,4 +44,3 @@ audio::../audio-files/Scarab.wav[]
 
 link:https://www.youtube.com/watch?v=6YXdlF1p0i8[Rocket League®: All Engine Audio]
 
-|===
