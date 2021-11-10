@@ -9,6 +9,7 @@ mit welchem anschließend ein Video eines Porsche (911) neu vertont werden soll.
 
 == Allgemeine Analyse verschiedener Motor-Geräusche
 === Auditive Wahrnehmung
+audio::../audio-files/Fahrzeuge_Positiv_enge_Auswahl.mp3[]
 
 
 === Technische Analyse
