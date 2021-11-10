@@ -9,9 +9,31 @@ mit welchem anschließend ein Video eines Porsche (911) neu vertont werden soll.
 
 == Allgemeine Analyse verschiedener Motor-Geräusche
 === Auditive Wahrnehmung
-//audio files here
 
+==== ausgewählte Testgeräusche
+Dominus:
 
+audio::../audio-files/Dominus.wav[]
+
+Esper:
+
+audio::../audio-files/Esper.wav[]
+
+Ford-GT-2006:
+
+audio::../audio-files/Ford-GT-2006.wav[]
+
+OEM-D-V2:
+
+audio::../audio-files/OEM-D-V2.wav[]
+
+Scarab:
+
+audio::../audio-files/Scarab.wav[]
+
+==== Wahrnehmungs-Beschreibung
+
+---
 === Technische Analyse
 ==== Amplituden Analyse
 ==== Spektralanalyse
