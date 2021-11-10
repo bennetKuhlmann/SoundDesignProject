@@ -33,7 +33,7 @@ audio::../audio-files/Scarab.wav[]
 
 ==== Wahrnehmungs-Beschreibung
 
-'''
+---
 === Technische Analyse
 ==== Amplituden Analyse
 ==== Spektralanalyse
