@@ -1,0 +1,24 @@
+= Bericht
+:project_name: SoundDesignProject
+:sectnums:
+:toc:
+
+== Aufgabenstellung
+Ziel des Projektes ist es, ein Motorgeräusch zu synthetisieren,
+mit welchem anschließend ein Video eines Porsche (911) neu vertont werden soll.
+
+== Allgemeine Analyse verschiedener Motor-Geräusche
+=== Auditive Wahrnehmung
+
+
+=== Technische Analyse
+==== Amplituden Analyse
+==== Spektralanalyse
+==== charakteristische Frequenzen
+==== Dynamik
+== Fazit
+== Quellen
+
+link:https://www.youtube.com/watch?v=6YXdlF1p0i8[Rocket League®: All Engine Audio]
+
+|===
