@@ -11,9 +11,14 @@
 |Scale |19:9
 |Corners | Off
 |Reflect/Bevel|Off
-|Scale|match Audio File
+|Scale|match Audio File (no fear turning it up, stays always 20 - 20k only focus is shifted)
 |Update|match Audio File
 |Color | Black
 |dB Range|Dynamic
 |Max res|2024
 |===
+
+== Frequency Splitter
+eignet sich gut für auditive Analyse einzelner Frequenzspektren:
+
+image:../Images/FrequencySplitter.jpg[]
