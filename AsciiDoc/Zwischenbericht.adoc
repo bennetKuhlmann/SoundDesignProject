@@ -1,0 +1,12 @@
+= Zwischenbericht
+
+=== Autoren
+
+* *Bennet Kuhlmann*
+* *Eric Meyer*
+
+=== Aufgabenstellung
+Ziel, bis zur Abgabe des Zwischenberichtes, ist es, verschiedene (Motoren-)Geräusche, hinsichtlich auditiver Wahrnehmung und technischem Umfang, zu analysieren. Danach soll der Umgang mit _Pure-Data_ erlernt und erste einfache Geräusche synthetisiert werden.
+
+=== Inhalt
+
