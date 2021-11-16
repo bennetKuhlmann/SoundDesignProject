@@ -107,7 +107,11 @@ Zur Analyse wird das Programm https://www.image-line.com/[FL-Studio], inklusive 
 ==== Spektralanalyse
 
 ===== Konfiguration
-Software-Konfiguration, wie Auflösung, Update, …
+* Genutztes FL-Studio-Plugin: WaveCandy
+** Auflösung: 2048 bands
+** Skala auf Werte kleiner Frequenz ausgerichtet (100 Hz - 10 kHz)
+** Eingabe-Geräusche weitgehend normalisiert
+** Update-Rate und Skala so gewählt, dass Frequenz-Spektrum deutlich sichtbar
 
 ===== Ergebnisse
 
@@ -115,13 +119,17 @@ Software-Konfiguration, wie Auflösung, Update, …
 
 image::../images/dominus_spectrum.png[]
 
-_Beschreibung:_
+_Beschreibung:_ +
+Auffällig sind besonders Hervorhebungen im 400 - 1000 Hz -Bereich.
+Ebenfalls erkennbar sind "Rillen", in denen vergleichsweise die Lautstärke so niedrig war, dass die Frequenz in der Rille entlang nie besonders stark hervorgehoben wird. In diesem Fall handelt es sich um den Schaltvorgang, in welchem nicht beschleunigt wird und demzufolge der Motor Leerlauf-Geräusche abgibt.
+Die Beschleunigungsphasen zwischen den Rillen, verändern den Frequenzbereich nur minimal, um eine Erhöhung der Frequenz um ca. 150 Hz.
 
 *Esper*
 
 image::../images/esper_spectrum.png[]
 
 _Beschreibung:_
+Auch hier sind Beschleunigungsphasen und Schaltvorgänge vorhanden und im Vergleich zu *Dominus* sehr viel deutlicher erkennbar. Die Frequenz ähnelt in diesem Fall einer "Sägezahn"-Kurve. Die Beschleunigungsphasen verändern die Frequenz auffällig stark, um ca. 400 Hz. Nach einer Phase folgt der Schaltvorgang und die Frequenz änder sich, indem sie wieder deutlich kleiner ist.
 
 *Ford-GT-2006*
 
@@ -146,12 +154,12 @@ In diesem Abschnitt werden besonders hervorstechende Frequenzen der jeweiligen G
 
 [cols="1,1,2"]
 |===
-|Motor-Geräusch         | Frequenzen | Besonderheiten
-|Dominus                | x          | x
-|Esper                  | x          | x
-|Ford-GT-2006           | x          | x
-|OEM-D-V2               | x          | x
-|Scarab                 | x          | x
+|Motor-Geräusch         | Frequenzen             | Besonderheiten
+|Dominus                | 200 - 1000 Hz          | Beschleunigungsphasen verändern Frequenz kaum
+|Esper                  | 350 - 1200 Hz          | saubere "Sägezahn"-Kurve deutlich erkennbar
+|Ford-GT-2006           | 50 - 800 Hz            | tiefer Frequenzgang (50 - 450 Hz) extrem stark ausgeprägt
+|OEM-D-V2               | um 500 Hz              | fast überall gleichstarker Anteil der Frequenz
+|Scarab                 | 1 - 10 kHz             | hoher Frequenzgang (4 - 10 kHz) extrem stark ausgeprägt
 
 |===
 
