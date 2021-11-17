@@ -61,6 +61,8 @@ audio::../audio-files/Scarab.wav[]
 * höhen und tiefen kaum ausgeprägt
 * vermittelt geschwindigkeit und wendigkeit, jedoch keine Kraft des Motors
 
+Der Dominus-Motor hat keinen satten Frequenzumfang, Höhen und Tiefen sind wenig ausgeprägt. Dadurch klingt der Motor sehr hell, wobei jedoch keine schrillen Frequenzen auftreten. Der Motor hat ein deutlich wahrnehmbares "Knatter"-Geräusch, was eine angenehmes Feedback des Motors gibt. Das eher auf die Mitten begrenzte Frequenzspektrum vermittelt zwar eine hohe Geschwindigkeit, aber dennoch klingt der Motor schwach. Deswegen assoziiert man mit diesem Motorgeräusch eher ein kleines wendiges Auto.
+
 *Esper*
 
 * sehr "klirrend"
@@ -73,6 +75,7 @@ audio::../audio-files/Scarab.wav[]
 * ein typisches "Motor-Flattern" bzw Brummen fehlt komplett -> lineare Frequenzanstiege ohne Vibration
 * Erinnert ohne Schaltvorgang und Kontext nicht an einen Motor
 
+Der Esper-Motor erinnert ohne Beachtung des Kontext sowie den Schaltgeräuschen nicht an einen Motor. Er hat ein sehr klares und klirrendes Geräusch, welches eher an einen Synthesizer-Akkord, als an einen Motor erinnert. Dazu trägt außerdem das Fehlen eines Frequenzflatterns, welches mit Zündungen assoziiert wird bei. Das Motorgeräusch ist sehr von hohen Frequenzen geprägt und besitzt kaum Bässe. Dadurch wird mit dem Motor ein Sience-Fictionl oder Cyber-Stil vermittelt, welcher ganz im Gegensatz zu dem zu vertonenden Porsche 911 steht. Die Schaltgeräusche sind mit aprupten Frequenzänderungen umgesetzt.
 
 *Ford-GT-2006*
 
@@ -82,6 +85,8 @@ audio::../audio-files/Scarab.wav[]
 * Schaltvorgänge durch geringere Lautstärke realisiert
 * klingt sehr kraftvoll
 * durch hohedrehzahländerung wirkt er auch schnell ()
+
+Der Ford-GT-2006-Motor
 
 *OEM-D-V2*
 
@@ -103,7 +108,7 @@ audio::../audio-files/Scarab.wav[]
 
 -> *Ergebnisse*
 
-Allgemein wurden motorgeräusche mit einem ausgewogenen Frequenzspektrum als am angenehmste wargenommen. Dabei ist aufgefallen, dass vorallem die Bässe die Kraft des Motors beschreiben und die Mitten die derzeitige Geschwindigkeit wiederspiegeln. Die Höhen tragen stark zur wahrgenommenen Charakteristik bei, vorallem dem sägenden oder schrillen Beiklang eines Motors. Eine weitere entscheidende Größe war die Zündfrequenz des Motors. Diese trägt, wenn sie schwach ausgeprägt und sehr schnell ist, zu einem dünnen, nicht kraftvollen Motorgeräusch bei. Stark ausgeprägt und etwas langsamer wirkt der Motor hingegen deutlich kraftvoller. Jedoch kann der Motor bei einem sehr stark auf der Zündfrequenz aufgebauten Geräusch auch unsauber, unrund bzw. kratzig klingen. Der wahrgenommene Drehzahlbereich des Motors ist entscheidend darüber, wie die Geschwindigkeitswahrnehmung des Motors ist. Ist das Spektrum eher schmal gibt es den Eindruck, dass der Motor sehr schnell seine maximale Drehzahl erreicht und somit kein großes Beschleunigungspotenzial erreicht.  Einbreiteres Spektrum wirkt deutlich dynamischer und vermittelt ein größeres Beschleunigungspotenzial. Ist der Motor jedoch zu dynamisch, hat also einen sehr großen Drehzahlbereich bekommt man den eindruck der Motor würde überdrehen und dementsprechend unsauber laufen, wodurch ein unruhiges Gefühl vermittelt wird.
+Allgemein wurden motorgeräusche mit einem ausgewogenen Frequenzspektrum als am angenehmste wargenommen. Dabei ist aufgefallen, dass vorallem die Bässe die Kraft des Motors beschreiben und die Mitten die derzeitige Geschwindigkeit wiederspiegeln. Die Höhen tragen stark zur wahrgenommenen Charakteristik bei, vorallem dem sägenden oder schrillen Beiklang eines Motors. Eine weitere entscheidende Größe ist die Zündfrequenz des Motors. Diese trägt, wenn sie schwach ausgeprägt und sehr schnell ist, zu einem dünnen, nicht kraftvollen Motorgeräusch bei. Stark ausgeprägt und etwas langsamer wirkt der Motor hingegen deutlich kraftvoller. Jedoch kann der Motor bei einem sehr stark auf der Zündfrequenz aufgebauten Geräusch auch unsauber, unrund bzw. kratzig klingen. Der wahrgenommene Drehzahlbereich des Motors ist entscheidend darüber, wie die Geschwindigkeitswahrnehmung des Motors ist. Ist das Spektrum eher schmal gibt es den Eindruck, dass der Motor sehr schnell seine maximale Drehzahl erreicht und somit kein großes Beschleunigungspotenzial hat.  Ein breiteres Spektrum wirkt deutlich dynamischer und vermittelt ein größeres Beschleunigungspotenzial. Ist der Motor jedoch zu dynamisch, hat also einen sehr großen Drehzahlbereich bekommt man den eindruck der Motor würde überdrehen und dementsprechend unsauber laufen, wodurch ein unruhiges Gefühl vermittelt wird.
 
 ---
 === Technische Analyse
@@ -179,6 +184,8 @@ ausgeprägter sind. Zwei Beschleunigungsphasen und zwei Schaltvorgänge sind sic
 Beschleunigungsphase ist mehr als doppelt so lang wie die erste.
 Unter 500 Hz sind kaum Frequenzen wahrnehmbar, dagegen im 1kHz bis 15 kHz umso mehr.
 Besonders hervorstechend sind die 1kHz, 3 kHz und 7kHz -Bereiche.
+
+Es fallen statisch lautere Frequenzbereiche im Mitten- und Höhen-Bereich auf.
 
 ==== charakteristische Frequenzen
 In diesem Abschnitt werden besonders hervorgegangene Frequenzen der jeweiligen Geräusche untersucht.
