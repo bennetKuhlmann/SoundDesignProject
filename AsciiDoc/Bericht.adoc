@@ -140,14 +140,19 @@ Die Beschleunigungsphasen zwischen den Rillen, verändern den Frequenzbereich nu
 
 image::../images/esper_spectrum.png[]
 
-_Beschreibung:_
+_Beschreibung:_ +
 Auch hier sind Beschleunigungsphasen und Schaltvorgänge vorhanden und im Vergleich zu *Dominus* sehr viel deutlicher erkennbar. Die Frequenz ähnelt in diesem Fall einer "Sägezahn"-Kurve. Die Beschleunigungsphasen verändern die Frequenz auffällig stark, um ca. 400 Hz. Nach einer Phase folgt der Schaltvorgang und die Frequenz änder sich, indem sie wieder deutlich kleiner ist.
 
 *Ford-GT-2006*
 
 image::../images/ford-gt_spectrum.png[]
 
-_Beschreibung:_
+_Beschreibung:_ +
+Bei diesem Beispiel sind besonders die gelben Bereiche (d.h. extrem stark ausgeprägt) deutlich erkennbar.
+Damit erzeugt der Motor des Ford-GT-2006 ein Geräusch, welches einen sehr tieffrequenten Anteil besitzt.
+Hohe Frequenzen gehen hierbei unter und sind nicht wahrnehmbar.
+Der markante Frequenzbereich liegt insbesondere hier zwischen 100 Hz und 400 Hz.
+Schaltvorgänge sind auch bei diesem Geräusch erkennbar.
 
 Der Motor hat ein besonders basslastiges Frequenzspektrum, wobei besonders stark zwei parallel laufende Frequenzbänder auffallen. Im Schaltvorgang findet keine starke Amplitudenschwankung statt, jedoch kann mein einen starken Frequenz-Peak an dieser Stelle erkennen. Weiterhin lassen sich in den Beschleunigungsphasen an einigen Stellen abrupte Frequenzabbrüche feststellen.
 
@@ -155,7 +160,12 @@ Der Motor hat ein besonders basslastiges Frequenzspektrum, wobei besonders stark
 
 image::../images/oem-d-v2_spectrum.png[]
 
-_Beschreibung:_
+_Beschreibung:_ +
+In erster Linie sind in diesem Bild keine markanten Stellen oder Bereiche hervorgehoben.
+Jede Frequenz ist ziemlich gleich stark vertreten, was bedeutet, dass es keinen besonders tiefen oder hellen
+Frequenzanteil gibt. Demzufolge wird das Geräusch als Mitte wahrgenommen.
+Bei genauerer Betrachtung fällt aber zumindest auf, dass Frequenzen kleiner als 200 Hz kaum vorzufinden sind.
+Auch hier sind die Schaltvorgänge und Beschleunigungsphasen sichtbar.
 
 Der Motor zeigt ein sehr unspezifisches Frequenzspektrum. Es liegt eine geringe Amplitudenverstärkung auf einem Frequenzband im 500 Hz Bereich vor. Der Schaltvorgang hat keine Besonderheiten, bis auf einen leichten Amplitudenverlust und eine linear absteigende Frequenzkurve.
 
@@ -163,10 +173,15 @@ Der Motor zeigt ein sehr unspezifisches Frequenzspektrum. Es liegt eine geringe 
 
 image::../images/scarab_spectrum.png[]
 
-_Beschreibung:_
+_Beschreibung:_ +
+Es fallen sofort die höherfrequenten Bereiche auf, welche im Vergleich zu den anderen Beispielen deutlich
+ausgeprägter sind. Zwei Beschleunigungsphasen und zwei Schaltvorgänge sind sichtbar, die letzte
+Beschleunigungsphase ist mehr als doppelt so lang wie die erste.
+Unter 500 Hz sind kaum Frequenzen wahrnehmbar, dagegen im 1kHz bis 15 kHz umso mehr.
+Besonders hervorstechend sind die 1kHz, 3 kHz und 7kHz -Bereiche.
 
-==== charakteristische Frequenzen (Frequenzbänder)
-In diesem Abschnitt werden besonders hervorstechende Frequenzen der jeweiligen Geräusche untersucht.
+==== charakteristische Frequenzen
+In diesem Abschnitt werden besonders hervorgegangene Frequenzen der jeweiligen Geräusche untersucht.
 
 [cols="1,1,2"]
 |===
@@ -189,7 +204,9 @@ In diesem Abschnitt werden besonders hervorstechende Frequenzen der jeweiligen G
 |===
 
 ==== Dynamik
-== Fazit
+=== Fazit
+
+== Geräusch-Synthese mit Pure-Data
 == Quellen
 
 link:https://www.youtube.com/watch?v=6YXdlF1p0i8[Rocket League®: All Engine Audio]
