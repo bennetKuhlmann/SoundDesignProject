@@ -136,10 +136,14 @@ Zur Analyse wird das Programm https://www.image-line.com/[FL-Studio], inklusive 
 
 image::../images/dominus_spectrum.png[]
 
+
 _Beschreibung:_ +
 Auffällig sind besonders Hervorhebungen im 400 - 1000 Hz -Bereich.
 Ebenfalls erkennbar sind "Rillen", in denen vergleichsweise die Lautstärke so niedrig war, dass die Frequenz in der Rille entlang nie besonders stark hervorgehoben wird. In diesem Fall handelt es sich um den Schaltvorgang, in welchem nicht beschleunigt wird und demzufolge der Motor Leerlauf-Geräusche abgibt.
 Die Beschleunigungsphasen zwischen den Rillen, verändern den Frequenzbereich nur minimal, um eine Erhöhung der Frequenz um ca. 150 Hz.
+
+image::../images/dominus_spectrum_freqband.png[]
+_Frequenzband_
 
 *Esper*
 
@@ -147,6 +151,9 @@ image::../images/esper_spectrum.png[]
 
 _Beschreibung:_ +
 Auch hier sind Beschleunigungsphasen und Schaltvorgänge vorhanden und im Vergleich zu *Dominus* sehr viel deutlicher erkennbar. Die Frequenz ähnelt in diesem Fall einer "Sägezahn"-Kurve. Die Beschleunigungsphasen verändern die Frequenz auffällig stark, um ca. 400 Hz. Nach einer Phase folgt der Schaltvorgang und die Frequenz änder sich, indem sie wieder deutlich kleiner ist.
+
+image::../images/esper_spectrum_freqband.png[]
+_Frequenzband_
 
 *Ford-GT-2006*
 
@@ -161,6 +168,9 @@ Schaltvorgänge sind auch bei diesem Geräusch erkennbar.
 
 Der Motor hat ein besonders basslastiges Frequenzspektrum, wobei besonders stark zwei parallel laufende Frequenzbänder auffallen. Im Schaltvorgang findet keine starke Amplitudenschwankung statt, jedoch kann mein einen starken Frequenz-Peak an dieser Stelle erkennen. Weiterhin lassen sich in den Beschleunigungsphasen an einigen Stellen abrupte Frequenzabbrüche feststellen.
 
+image::../images/ford-gt_spectrum_freqband.png[]
+_Frequenzband_
+
 *OEM-D-V2*
 
 image::../images/oem-d-v2_spectrum.png[]
@@ -173,6 +183,9 @@ Bei genauerer Betrachtung fällt aber zumindest auf, dass Frequenzen kleiner als
 Auch hier sind die Schaltvorgänge und Beschleunigungsphasen sichtbar.
 
 Der Motor zeigt ein sehr unspezifisches Frequenzspektrum. Es liegt eine geringe Amplitudenverstärkung auf einem Frequenzband im 500 Hz Bereich vor. Der Schaltvorgang hat keine Besonderheiten, bis auf einen leichten Amplitudenverlust und eine linear absteigende Frequenzkurve.
+
+image::../images/oem-d-v2_spectrum_freqband.png[]
+_Frequenzband_
 
 *Scarab*
 
@@ -187,6 +200,9 @@ Besonders hervorstechend sind die 1kHz, 3 kHz und 7kHz -Bereiche.
 
 Es fallen statisch lautere Frequenzbereiche im Mitten- und Höhen-Bereich auf.
 
+image::../images/scarab_spectrum_freqband.png[]
+_Frequenzband_
+
 ==== charakteristische Frequenzen
 In diesem Abschnitt werden besonders hervorgegangene Frequenzen der jeweiligen Geräusche untersucht.
 
@@ -194,13 +210,13 @@ In diesem Abschnitt werden besonders hervorgegangene Frequenzen der jeweiligen G
 |===
 |Motor-Geräusch         | Frequenzen in Hz         | Besonderheiten
 |Dominus                | 200 - 1000 Hz          | Beschleunigungsphasen verändern Frequenz kaum
-||1: 400 bis 500, 2: 750 bis 1k| 2 paralell verlaufende Frequenzbänder
+||1: 400 bis 500, 2: 750 bis 1k| 2 parallel verlaufende Frequenzbänder
 
 |Esper                  | 350 - 1200 Hz          | saubere "Sägezahn"-Kurve deutlich erkennbar
 ||1: 300 bis 1k|sehr dominante saubere (lineare?) frequenzlinie, wellenartige modellierung in tieferen Frequenzbereichen
 
 |Ford-GT-2006           | 50 - 800 Hz            | tiefer Frequenzgang (50 - 450 Hz) extrem stark ausgeprägt
-||1: 100 bis 200, 2: 200 bis 400|2 paralell verlaufende Frequenzbänder, welche sich abhängig von Leerlauf oder Beschleunigung in ihrer Amplitude abwechseln .
+||1: 100 bis 200, 2: 200 bis 400|2 parallel verlaufende Frequenzbänder, welche sich abhängig von Leerlauf oder Beschleunigung in ihrer Amplitude abwechseln .
 
 |OEM-D-V2               | um 500 Hz              | fast überall gleichstarker Anteil der Frequenz
 ||1: 100 bis 140, 2: 220 bis 260, 3: 480 bis 530| Ein dominantes, aber unsauberes Bassspektrum(1), obere spektren heben sich nicht stark hervor.
