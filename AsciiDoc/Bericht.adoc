@@ -208,22 +208,12 @@ In diesem Abschnitt werden besonders hervorgegangene Frequenzen der jeweiligen G
 
 [cols="1,1,2"]
 |===
-|Motor-Geräusch         | Frequenzen in Hz         | Besonderheiten
-|Dominus                | 200 - 1000 Hz          | Beschleunigungsphasen verändern Frequenz kaum
-||1: 400 bis 500, 2: 750 bis 1k| 2 parallel verlaufende Frequenzbänder
-
-|Esper                  | 350 - 1200 Hz          | saubere "Sägezahn"-Kurve deutlich erkennbar
-||1: 300 bis 1k|sehr dominante saubere (lineare?) frequenzlinie, wellenartige modellierung in tieferen Frequenzbereichen
-
-|Ford-GT-2006           | 50 - 800 Hz            | tiefer Frequenzgang (50 - 450 Hz) extrem stark ausgeprägt
-||1: 100 bis 200, 2: 200 bis 400|2 parallel verlaufende Frequenzbänder, welche sich abhängig von Leerlauf oder Beschleunigung in ihrer Amplitude abwechseln .
-
-|OEM-D-V2               | um 500 Hz              | fast überall gleichstarker Anteil der Frequenz
-||1: 100 bis 140, 2: 220 bis 260, 3: 480 bis 530| Ein dominantes, aber unsauberes Bassspektrum(1), obere spektren heben sich nicht stark hervor.
-
-|Scarab                 | 1 - 10 kHz             | hoher Frequenzgang (4 - 10 kHz) extrem stark ausgeprägt
-||1: 70 bis 160, 2: 1k bis 2k, 3: 2,3k bis 3,1k|unsauberes Bassspektrum, statisch lautere Frequenzbereiche im Mitten- und Höhen-Bereich (2,3)
-
+|Motor-Geräusch         | Frequenzen in Hz                                           | Besonderheiten
+|Dominus                | 1: 400 bis 500; 2: 750 bis 1k                              | 2 parallel verlaufende Frequenzbänder; Beschleunigungsphasen verändern Frequenz kaum
+|Esper                  | 1: 300 bis 1k                                              | saubere "Sägezahn"-Kurve deutlich erkennbar; sehr dominante saubere (lineare?) frequenzlinie, wellenartige modellierung in tieferen Frequenzbereichen
+|Ford-GT-2006           | 1: 100 bis 200, 2: 200 bis 400                             | tiefer Frequenzgang (50 - 450 Hz) extrem stark ausgeprägt; 2 parallel verlaufende Frequenzbänder, welche sich abhängig von Leerlauf oder Beschleunigung in ihrer Amplitude abwechseln
+|OEM-D-V2               | 1: 100 bis 140, 2: 220 bis 260, 3: 480 bis 530             | fast überall gleichstarker Anteil der Frequenz; ein dominantes, aber unsauberes Bassspektrum(1), obere spektren heben sich nicht stark hervor
+|Scarab                 |1: 70 bis 160, 2: 1k bis 2k, 3: 2,3k bis 3,1k               | hoher Frequenzgang (4 - 10 kHz) extrem stark ausgeprägt; unsauberes Bassspektrum, statisch lautere Frequenzbereiche im Mitten- und Höhen-Bereich (2,3)
 |===
 
 ==== Dynamik
