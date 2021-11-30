@@ -1,4 +1,4 @@
-w= Bericht
+= Bericht
 :project_name: SoundDesignProject
 :sectnums:
 :toc:
