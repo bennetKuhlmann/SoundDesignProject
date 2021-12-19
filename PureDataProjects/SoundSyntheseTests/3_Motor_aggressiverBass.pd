@@ -1,7 +1,7 @@
-#N canvas 1 10 1261 1227 12;
+#N canvas 1 10 1277 1227 12;
 #X obj 160 207 sig~;
-#X obj 19 28 hsl 600 70 0.01 0.075 1 0 empty empty speed 16 6 1 8 -260097
--1 -1 68000 1;
+#X obj 21 28 hsl 600 70 0.01 0.075 1 0 empty empty speed 16 6 1 8 -260097
+-1 -1 0 1;
 #X obj 161 409 +~;
 #X obj 153 500 dac~;
 #X obj 161 436 lop~ 11000;
@@ -182,6 +182,9 @@
 #X msg 312 477 0.15;
 #X msg 350 487 0.25;
 #X msg 389 498 0.4;
+#X msg 306 564 stop;
+#X obj 223 618 writesf~ 2;
+#X msg 276 537 open 3_Motor.wav \, start;
 #X connect 0 0 5 0;
 #X connect 1 0 28 0;
 #X connect 1 0 7 0;
@@ -199,6 +202,8 @@
 #X connect 14 0 11 1;
 #X connect 15 0 3 0;
 #X connect 15 0 3 1;
+#X connect 15 0 33 0;
+#X connect 15 0 33 1;
 #X connect 16 0 15 1;
 #X connect 17 0 15 1;
 #X connect 18 0 6 1;
@@ -218,3 +223,5 @@
 #X connect 29 0 15 1;
 #X connect 30 0 15 1;
 #X connect 31 0 15 1;
+#X connect 32 0 33 0;
+#X connect 34 0 33 0;
