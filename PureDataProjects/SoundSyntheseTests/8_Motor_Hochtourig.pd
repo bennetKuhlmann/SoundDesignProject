@@ -1,11 +1,11 @@
-#N canvas -8 0 1294 1326 12;
+#N canvas -8 0 942 966 12;
 #X obj 166 261 sig~;
-#X obj 153 94 hsl 400 12 0.012 0.07 1 0 empty empty speed 16 6 1 8
--260097 -1 -1 0 1;
+#X obj 153 94 hsl 400 12 0.012 0.08 1 0 empty empty speed 16 6 1 8
+-260097 -1 -1 48900 1;
 #X obj 166 445 +~;
 #X obj 159 593 dac~;
 #X obj 169 497 lop~ 11000;
-#N canvas 1300 0 1250 1326 engine 1;
+#N canvas 991 0 1559 1030 engine 0;
 #X obj 105 469 osc~;
 #X obj 144 468 osc~;
 #X obj 209 477 osc~;
