@@ -4,7 +4,7 @@ SoundDesign-Partnerarbeit im 3. Semester
 
 <h2>Nächster Termin</h2>
 <p>
-Abgabe des Zwischenberichts: <strong style="color: lightcoral">21.01.2022</strong>
+Abgabe des Abschlussberichtes: <strong style="color: lightcoral">21.01.2022</strong>
 </p>
 <h2>Neuigkeiten</h2>
 <ul>
