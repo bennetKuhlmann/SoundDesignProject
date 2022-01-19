@@ -4,12 +4,11 @@ SoundDesign-Partnerarbeit im 3. Semester
 
 <h2>Nächster Termin</h2>
 <p>
-Abgabe des Zwischenberichts: <strong style="color: lightcoral">10.12.2021</strong>
+Abgabe des Zwischenberichts: <strong style="color: lightcoral">21.01.2022</strong>
 </p>
 <h2>Neuigkeiten</h2>
 <ul>
-<li>Erste Bilder der Frequenzspektren hinzugefügt</li>
-<li>Wahrnehmungen von meiner Seite (Eric) ausgefüllt, gerne ergänzen :D</li>
+<li>Videoaufnahme wird vorbereitet</li>
 </ul>
 
 <h2>Autoren:</h2>
@@ -33,8 +32,3 @@ in einem vorgegebenen Video (Porsche 911) zu hinterlegen.
 <li>Zusammenführung von erzeugter Tonspur und Videospur</li>
 </ol>
 </body>
-
-<h2>Offene Aufgaben</h2>
-
-
-<h2>Erledigte Aufgaben</h2>
